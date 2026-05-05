@@ -22,14 +22,7 @@ const userSchema = new Schema(
             required: true,
             lowercase: true,
             trim: true,
-        }, 
-        fullname: {
-            type: String,
-            required: true,
-            lowercase: true,
-            trim: true,
-            index:true
-        }, 
+        },
         avatar : {
             type: String,
             required: true,
